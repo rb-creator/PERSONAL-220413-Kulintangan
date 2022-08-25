@@ -3,7 +3,22 @@ guid: 3597003029ee6b8448b0e0048b79976e
 SketchUpImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brass
+    second: {fileID: 2100000, guid: 00503db9aa3575b49811360e6ffb2be7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: eae3c137bcead864dbe55c3c23d46c36, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Brass
+    second: {fileID: 2800000, guid: 7823629b6d7d8c84e90904ea71d0de4d, type: 3}
   materials:
     materialImportMode: 2
     materialName: 2
@@ -41,7 +56,7 @@ SketchUpImporter:
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
+    importCameras: 0
     importLights: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
@@ -85,7 +100,7 @@ SketchUpImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 0.0254
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
@@ -102,8 +117,8 @@ SketchUpImporter:
   assetBundleVariant: 
   generateBackFace: 1
   mergeCoplanarFaces: 0
-  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000
+  selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: 028aa06cbb6551ed3ebf64bdcd4f480c
+    Hash: ad25f73969922ea3944236a3f3c2eb3a
   fileUnit: 0

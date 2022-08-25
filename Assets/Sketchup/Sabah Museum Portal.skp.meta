@@ -3,7 +3,27 @@ guid: c2241c6e57aa1f640871e1a43098b7aa
 SketchUpImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Stone Marble]'
+    second: {fileID: 2100000, guid: f214fe60f5e577b4a84e89f12cee30d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Stone Vein Gray]'
+    second: {fileID: 2100000, guid: 196aaa6cfd0d2c44cb2cfdc0469eeb28, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stone_Marble
+    second: {fileID: 2800000, guid: 65c80a4bfc3b9b94caa258c7020347e2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stone_Vein_Gray
+    second: {fileID: 2800000, guid: 2206b969b89585941b29d5539ea393e7, type: 3}
   materials:
     materialImportMode: 2
     materialName: 2
@@ -41,7 +61,7 @@ SketchUpImporter:
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
+    importCameras: 0
     importLights: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
@@ -85,7 +105,7 @@ SketchUpImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 0.0254
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
@@ -105,5 +125,5 @@ SketchUpImporter:
   selectedNodes: 00000000010000000200000003000000040000000500000006000000
   assetHash:
     serializedVersion: 2
-    Hash: 4f256ed2856f2363ef6abf82e05fdf81
+    Hash: 849ebd3646d65a6e8d41ffbc82567e96
   fileUnit: 0

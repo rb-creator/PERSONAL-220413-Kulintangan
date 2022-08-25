@@ -3,7 +3,17 @@ guid: 8f396bd9974d13744922ad8d8020953f
 SketchUpImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Wood Veneer 01]'
+    second: {fileID: 2100000, guid: c078d837016611245b0fa3d97de607e5, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood 01
+    second: {fileID: 2800000, guid: a76f0818af1a1a442b2912aa3986a787, type: 3}
   materials:
     materialImportMode: 2
     materialName: 2
@@ -41,7 +51,7 @@ SketchUpImporter:
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
+    importCameras: 0
     importLights: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
@@ -85,7 +95,7 @@ SketchUpImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 0.0254
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
@@ -102,8 +112,8 @@ SketchUpImporter:
   assetBundleVariant: 
   generateBackFace: 1
   mergeCoplanarFaces: 0
-  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000
+  selectedNodes: 00000000010000000200000003000000040000000500000006000000
   assetHash:
     serializedVersion: 2
-    Hash: d6f66dcccec4c80a58fb2f5e54d28fc1
+    Hash: 446b829677c9cd617d0362cd0edf7def
   fileUnit: 0
