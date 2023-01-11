@@ -21,9 +21,9 @@ public class RocketController : MonoBehaviour
     public float boostSpeed = 20000f;
     public float rotateSpeed = 0.5f;
     public Rigidbody rocketBody;
-    public GameObject leftMesh;
-    public GameObject rightMesh;
-    public bool meshVisible = true;
+    //public GameObject leftMesh;
+    //public GameObject rightMesh;
+    //public bool meshVisible = true;
 
 
     private void FixedUpdate()

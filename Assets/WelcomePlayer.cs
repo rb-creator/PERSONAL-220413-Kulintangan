@@ -11,18 +11,29 @@ public class WelcomePlayer : MonoBehaviour
     public TeleportationAnchor firstTeleportAnchor;
     public GameObject xrLineVisual;
     public GameObject firstPointer;
+    public GameObject thirdPointer;
     public bool welcomeCompleted;
     
     // Start is called before the first frame update
     void Start()
     {
-        welcomeAudio = GetComponent<AudioSource>();
-        groundTeleportArea.enabled = false;
-        firstTeleportAnchor.enabled = false;
-        welcomeCompleted = false;
-        xrLocomotion.SetActive(false);
-        xrLineVisual.SetActive(false);
-        firstPointer.SetActive(false);
+        if (PlayerPositionManager.Instance.firstLoad == true)
+        {
+            welcomeAudio = GetComponent<AudioSource>();
+            groundTeleportArea.enabled = false;
+            firstTeleportAnchor.enabled = false;
+            welcomeCompleted = false;
+            xrLocomotion.SetActive(false);
+            xrLineVisual.SetActive(false);
+            firstPointer.SetActive(false);
+        }
+        else
+        {
+            thirdPointer.SetActive(true);
+            gameObject.SetActive(false);
+        }
+
+
     }
 
     // Update is called once per frame
@@ -35,7 +46,8 @@ public class WelcomePlayer : MonoBehaviour
             firstTeleportAnchor.enabled = true;
             firstPointer.SetActive(true);
             xrLineVisual.SetActive(true);
-            welcomeCompleted = true;
         }
+        welcomeCompleted = true;
+        PlayerPositionManager.Instance.firstLoad = false;
     }
 }

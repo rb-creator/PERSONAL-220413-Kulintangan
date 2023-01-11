@@ -3,24 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
 public class SceneTransitionManager : MonoBehaviour
 {
-
     public FadeScreen fadeScreen;
+    public void GoHome()
+    {
+        GoToSceneAsync(0);
+    }
 
-    //public void GoToScene(int sceneIndex)
-    //{
-    //    StartCoroutine(GoToSceneRoutine(sceneIndex));
-    //}
+    public void ExitApp()
+    {
+#if UNITY_EDITOR
+        EditorApplication.ExitPlaymode();
+#else
+        Application.Quit();
+#endif    
 
-    //IEnumerator GoToSceneRoutine(int sceneIndex)
-    //{
-    //    fadeScreen.FadeOut();
-    //    yield return new WaitForSeconds(fadeScreen.fadeDuration);
-
-    //    Launch New Scene
-    //    SceneManager.LoadScene(sceneIndex);
-    //}
+    }
 
     public void GoToSceneAsync(int sceneIndex)
     {
