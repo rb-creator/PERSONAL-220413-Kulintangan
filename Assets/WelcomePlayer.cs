@@ -12,6 +12,8 @@ public class WelcomePlayer : MonoBehaviour
     public GameObject xrLineVisual;
     public GameObject firstPointer;
     public GameObject thirdPointer;
+    public GameObject fourthPointer;
+    public GameObject fifthPointer;
     public bool welcomeCompleted;
     
     // Start is called before the first frame update
@@ -29,7 +31,21 @@ public class WelcomePlayer : MonoBehaviour
         }
         else
         {
-            thirdPointer.SetActive(true);
+            if (PlayerPositionManager.Instance.asteroidsComplete && !PlayerPositionManager.Instance.virtualInsanityComplete && !PlayerPositionManager.Instance.roomComplete)
+            {
+                thirdPointer.SetActive(true);
+            }
+
+            if (PlayerPositionManager.Instance.asteroidsComplete && PlayerPositionManager.Instance.virtualInsanityComplete && !PlayerPositionManager.Instance.roomComplete)
+            {
+                fourthPointer.SetActive(true);
+            }
+
+            if (PlayerPositionManager.Instance.asteroidsComplete && PlayerPositionManager.Instance.virtualInsanityComplete && PlayerPositionManager.Instance.roomComplete)
+            {
+                fifthPointer.SetActive(true);
+            }
+
             gameObject.SetActive(false);
         }
 

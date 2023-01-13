@@ -5,6 +5,9 @@ using UnityEngine;
 public class PlayerPositionManager : MonoBehaviour
 {
     public bool firstLoad;
+    public bool asteroidsComplete;
+    public bool virtualInsanityComplete;
+    public bool roomComplete;
     public Vector3 spawnPos;
     public Quaternion spawnRot;
     public static PlayerPositionManager Instance;
@@ -23,16 +26,4 @@ public class PlayerPositionManager : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        if (firstLoad == true)
-        {
-            Debug.Log("This is the FIRST time loading this scene");
-        }
-        else
-        {
-            Debug.Log("This is NOT the first time loading this scene");
-        }
-    }
 }

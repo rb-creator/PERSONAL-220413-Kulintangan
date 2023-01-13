@@ -12,7 +12,7 @@ public class RocketController : MonoBehaviour
     private string pitchControl = "XRI_Right_Primary2DAxis_Vertical";
     private string yawControl = "XRI_Right_Primary2DAxis_Horizontal";
     private string boostButton = "XRI_Right_PrimaryButton";
-    private string hideButton = "XRI_Left_PrimaryButton";
+    //private string hideButton = "XRI_Left_PrimaryButton";
     private float surgeInput;
     private float rollInput;
     private float pitchInput;

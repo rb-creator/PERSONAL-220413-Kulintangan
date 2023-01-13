@@ -14228,7 +14228,6 @@ GameObject:
   - component: {fileID: 1810969280}
   - component: {fileID: 1810969279}
   - component: {fileID: 1810969278}
-  - component: {fileID: 1810969282}
   - component: {fileID: 1810969283}
   m_Layer: 0
   m_Name: Piano High
@@ -14409,58 +14408,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810969276}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1810969282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1810969276}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b51e54047889f1c4dac64a27f85a09c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  occlusionWallMask:
-    serializedVersion: 2
-    m_Bits: 55
-  obstructionWallMask:
-    serializedVersion: 2
-    m_Bits: 55
-  occlusionRayUpdateTime: 1
-  obstructionRayUpdateTime: 1
-  clipIsPlaying: 0
-  gainLevel: 0
-  directLevel: 0
-  reflectionLevel: 0
-  reverbLevel: 0
-  azimuthCorrection: 1
-  distanceCorrection: 1
-  useUnityDistance: 0
-  auralization: 0
-  roomPreset: 7
-  internalReverb: 1
-  performanceMode: 0
-  dearVRPlayOnAwake: 0
-  bypass: 0
-  bypassPerformance: 0
-  reverbStopOverlap: 1
-  inputChannel: 0
-  reflectionLP: 20000
-  reverbLP: 20000
-  roomSize: 100
-  bassBoost: 0
-  occlusionLevel: 0.6
-  obsturctionLevel: 0.6
-  occlusionActive: 0
-  obstructionActive: 0
-  forceOcclusion: 0
-  forceObstruction: 0
-  occlusionDebugRayCast: 0
-  occlusionRayUpdateFreq: 0.2
-  obstructionRayUpdateFreq: 0.2
-  obstructionDebugRayCast: 0
-  reverbSends: []
 --- !u!114 &1810969283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15264,7 +15211,6 @@ GameObject:
   - component: {fileID: 1923496144}
   - component: {fileID: 1923496143}
   - component: {fileID: 1923496142}
-  - component: {fileID: 1923496146}
   - component: {fileID: 1923496147}
   m_Layer: 0
   m_Name: Piano Low
@@ -15445,58 +15391,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923496140}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1923496146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923496140}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b51e54047889f1c4dac64a27f85a09c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  occlusionWallMask:
-    serializedVersion: 2
-    m_Bits: 55
-  obstructionWallMask:
-    serializedVersion: 2
-    m_Bits: 55
-  occlusionRayUpdateTime: 1
-  obstructionRayUpdateTime: 1
-  clipIsPlaying: 0
-  gainLevel: 0
-  directLevel: 0
-  reflectionLevel: 0
-  reverbLevel: 0
-  azimuthCorrection: 1
-  distanceCorrection: 1
-  useUnityDistance: 0
-  auralization: 0
-  roomPreset: 7
-  internalReverb: 1
-  performanceMode: 0
-  dearVRPlayOnAwake: 0
-  bypass: 0
-  bypassPerformance: 0
-  reverbStopOverlap: 1
-  inputChannel: 0
-  reflectionLP: 20000
-  reverbLP: 20000
-  roomSize: 100
-  bassBoost: 0
-  occlusionLevel: 0.6
-  obsturctionLevel: 0.6
-  occlusionActive: 0
-  obstructionActive: 0
-  forceOcclusion: 0
-  forceObstruction: 0
-  occlusionDebugRayCast: 0
-  occlusionRayUpdateFreq: 0.2
-  obstructionRayUpdateFreq: 0.2
-  obstructionDebugRayCast: 0
-  reverbSends: []
 --- !u!114 &1923496147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18283,6 +18177,10 @@ PrefabInstance:
     - target: {fileID: 5802881753402852983, guid: 46ede694ff0353342af05bde854980b7, type: 3}
       propertyPath: m_InteractionLayerMask.m_Bits
       value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 5802881753402853256, guid: 46ede694ff0353342af05bde854980b7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5802881753402853258, guid: 46ede694ff0353342af05bde854980b7, type: 3}
       propertyPath: m_TagString

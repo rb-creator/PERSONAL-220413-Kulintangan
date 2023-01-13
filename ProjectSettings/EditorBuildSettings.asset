@@ -17,9 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3 Unity VR Room.unity
     guid: afdcb113ffd5a4353ad88f0dd03743af
-  - enabled: 1
-    path: Assets/Scenes/4 Portal Lobby.unity
-    guid: d90d2ff884e0d104b9ae15c1e09c1d90
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a27bc31fa4babf04b81808447ada6880, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 4a7190ac9fc3da647a47adfb044daa5e, type: 2}

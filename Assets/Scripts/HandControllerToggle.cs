@@ -67,27 +67,5 @@ public class HandControllerToggle : MonoBehaviour
             }
         }
 
-
-        //if (Input.GetButtonDown(toggleButton) && handsVisible == true)
-        //{
-        //    leftHand.SetActive(false);
-        //    rightHand.SetActive(false);
-        //    handsVisible = false;
-        //    leftController.SetActive(true);
-        //    rightController.SetActive(true);
-        //    controllersVisible = true;
-        //}
-        //else
-        //{
-        //    if (Input.GetButtonDown(toggleButton) && handsVisible == false)
-        //    {
-        //        leftHand.SetActive(true);
-        //        rightHand.SetActive(true);
-        //        handsVisible = true;
-        //        leftController.SetActive(false);
-        //        rightController.SetActive(false);
-        //        controllersVisible = false;
-        //    }
-        //}
     }
 }
