@@ -6,9 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/Scenes/0 Museum.unity
+    guid: 5488e8c467637f24b87001f7dd4ba10d
+  - enabled: 1
+    path: Assets/Scenes/1 AsteroidsVR.unity
+    guid: 3a3d6e15a0fb15049afc03c2213d6899
+  - enabled: 1
+    path: Assets/Scenes/2 Virtual Insanity.unity
+    guid: 037298c5db99f214b9f0c8b9cf16e76e
+  - enabled: 1
+    path: Assets/Scenes/3 Unity VR Room.unity
+    guid: afdcb113ffd5a4353ad88f0dd03743af
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a27bc31fa4babf04b81808447ada6880, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 4a7190ac9fc3da647a47adfb044daa5e, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 46f7e20cde0cfa747a51b09f61ce78c6, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2579630088439604bb96c5b169a3a36c, type: 2}

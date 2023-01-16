@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Beater
+  - Laser
+  - Asteroid
+  - Rocket
+  - Hand
   layers:
   - Default
   - TransparentFX
@@ -12,6 +16,9 @@ TagManager:
   - 
   - Water
   - UI
+  - Interactables
+  - Hyperspeed
+  - Player
   - 
   - 
   - 
@@ -34,10 +41,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Teleport
   m_SortingLayers:
   - name: Default
     uniqueID: 0
