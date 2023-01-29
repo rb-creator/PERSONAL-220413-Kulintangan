@@ -14055,7 +14055,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3122936751142388478, guid: 4a560f08494b0ef429a115f159aa81ee, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GoHome
+      value: ExitApp
       objectReference: {fileID: 0}
     - target: {fileID: 3122936751142388478, guid: 4a560f08494b0ef429a115f159aa81ee, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -14099,7 +14099,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5352543970204963089, guid: 4a560f08494b0ef429a115f159aa81ee, type: 3}
       propertyPath: m_text
-      value: Go Home
+      value: Quit
       objectReference: {fileID: 0}
     - target: {fileID: 5352543970204963089, guid: 4a560f08494b0ef429a115f159aa81ee, type: 3}
       propertyPath: m_fontAsset
